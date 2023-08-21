@@ -6,8 +6,7 @@
  * and updates the value it points to to 98
  * Return: Always 0.
  */
-int reset_to_98(int n)
+int reset_to_98(int a)
 {
-	*n = 98;
+	a = 98;
 }
-
