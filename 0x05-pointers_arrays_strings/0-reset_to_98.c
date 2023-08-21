@@ -6,7 +6,7 @@
  * and updates the value it points to to 98
  * Return: Always 0.
  */
-int reset_to_98(int *a)
+void reset_to_98(int a)
 {
-	*a = 98;
+	a = 98;
 }
